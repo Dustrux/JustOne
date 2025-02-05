@@ -20,23 +20,23 @@ let motsUtilises = [];
 let score = 0;
 
 function poserQuestion(question) {
-    return new Promise(resolve => rl.question(question, reponse => resolve(reponse))); //MMMM
+    return new Promise(resolve => rl.question(question, reponse => resolve(reponse))); 
 }
 
 function choisirMotsAleatoires(motsDisponibles, nombre) {
     const motsChoisis = [];
     while (motsChoisis.length < nombre && motsDisponibles.length > 0) {
         const indexAleatoire = Math.floor(Math.random() * motsDisponibles.length);
-        motsChoisis.push(motsDisponibles.splice(indexAleatoire, 1)[0]); //NNNNN
+        motsChoisis.push(motsDisponibles.splice(indexAleatoire, 1)[0]); 
     }
     return motsChoisis;
 }
 
-async function jouerManche(indexJoueurActif) {     //async???
+async function jouerManche(indexJoueurActif) {    
     console.log(`\n--- Manche ${mancheActuelle} ---`);
 
     const joueurActif = joueurs[indexJoueurActif];
-    console.log(`${joueurActif} est le joueur actif.`); //NN
+    console.log(`${joueurActif} est le joueur actif.`); 
 
     // Filtrer les mots déjà utilisés
     const motsDisponibles = motsMysteres.filter(mot => !motsUtilises.includes(mot));
