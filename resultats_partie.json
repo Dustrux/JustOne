@@ -1,0 +1,127 @@
+[
+  {
+    "manche": 1,
+    "joueurActif": "Joueur 1",
+    "motMystere": "Énergie",
+    "indices": [
+      {
+        "joueur": "Joueur 2",
+        "indice": "ok"
+      },
+      {
+        "joueur": "Joueur 3",
+        "indice": "ok"
+      },
+      {
+        "joueur": "Joueur 4",
+        "indice": "ok"
+      },
+      {
+        "joueur": "Joueur 5",
+        "indice": "ok"
+      }
+    ],
+    "proposition": "ok",
+    "succes": false
+  },
+  {
+    "manche": 2,
+    "joueurActif": "Joueur 2",
+    "motMystere": "Base de données",
+    "indices": [
+      {
+        "joueur": "Joueur 1",
+        "indice": "ok"
+      },
+      {
+        "joueur": "Joueur 3",
+        "indice": "ko"
+      },
+      {
+        "joueur": "Joueur 4",
+        "indice": "koko"
+      },
+      {
+        "joueur": "Joueur 5",
+        "indice": "koko"
+      }
+    ],
+    "proposition": "ok",
+    "succes": false
+  },
+  {
+    "manche": 3,
+    "joueurActif": "Joueur 3",
+    "motMystere": "Europe",
+    "indices": [
+      {
+        "joueur": "Joueur 1",
+        "indice": "ok"
+      },
+      {
+        "joueur": "Joueur 2",
+        "indice": "ok"
+      },
+      {
+        "joueur": "Joueur 4",
+        "indice": "ok"
+      },
+      {
+        "joueur": "Joueur 5",
+        "indice": "ok"
+      }
+    ],
+    "proposition": "ok",
+    "succes": false
+  },
+  {
+    "manche": 4,
+    "joueurActif": "Joueur 4",
+    "motMystere": "Capteur",
+    "indices": [
+      {
+        "joueur": "Joueur 1",
+        "indice": "ok"
+      },
+      {
+        "joueur": "Joueur 2",
+        "indice": "ok"
+      },
+      {
+        "joueur": "Joueur 3",
+        "indice": "pok"
+      },
+      {
+        "joueur": "Joueur 5",
+        "indice": "okk"
+      }
+    ],
+    "proposition": "ok",
+    "succes": false
+  },
+  {
+    "manche": 5,
+    "joueurActif": "Joueur 5",
+    "motMystere": "Simulation",
+    "indices": [
+      {
+        "joueur": "Joueur 1",
+        "indice": "ok"
+      },
+      {
+        "joueur": "Joueur 2",
+        "indice": "ok"
+      },
+      {
+        "joueur": "Joueur 3",
+        "indice": "ok"
+      },
+      {
+        "joueur": "Joueur 4",
+        "indice": "ok"
+      }
+    ],
+    "proposition": "opl",
+    "succes": false
+  }
+]
